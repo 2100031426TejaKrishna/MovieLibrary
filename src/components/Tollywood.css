@@ -1,0 +1,39 @@
+/* Additional styles for Tollywood page */
+.movie-list-container {
+    padding-top: 150px; /* Adjust the padding to ensure space below the navbar */
+    background: linear-gradient(90deg, rgb(6, 86, 118) 0%, rgba(91, 177, 217, 0.8) 50%, rgb(6, 86, 118) 100%);
+    padding: 170px 0;
+    position: relative; /* Change position to relative */
+    width: 100%; /* Change width to 100% for full screen */
+    z-index: 1; /* Ensure content stays above the navbar */
+    animation: gradientAnimation 5s infinite;
+}
+
+.movie-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+    padding: 70px;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Styles for Navbar */
+.navbar {
+    background-color: rgba(173, 216, 230, 0.8);
+    padding: 20px 0;
+    position: fixed;
+    width: 70%;
+    top: 0;
+    z-index: 1000;
+}

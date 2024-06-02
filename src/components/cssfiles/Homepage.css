@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.homepage-container {
+    position: relative;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/free-photo/assortment-cinema-elements-red-background-with-copy-space_23-2148457848.jpg?w=1380&t=st=1717152308~exp=1717152908~hmac=d91874263cd37b624e32d5eeabd3ca9226a38b84f1291559af2158e01a8fae7f");
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+}
+
+.slideshow-container {
+    position: absolute;
+    top: 40%; /* Adjust this value as needed to move the text vertically */
+    left: 5%; /* Adjust this value as needed to move the text horizontally */
+}
+
+.slideshow-text {
+    font-size: 3em;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.15em solid rgb(129, 212, 237);
+    animation: typing 4s steps(21) 1s 1 normal both, blink-caret 0.75s step-end infinite;
+    color: white;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 21ch; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: rgb(180, 239, 238); }
+}

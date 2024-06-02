@@ -1,0 +1,38 @@
+/* Common.css */
+
+/* Styles for Navbar */
+.navbar {
+    background: linear-gradient(90deg, rgba(173, 216, 230, 1) 0%, rgba(173, 216, 230, 0.8) 50%, rgba(173, 216, 230, 1) 100%);
+    padding: 20px 0;
+    position: fixed;
+    width: 100%; /* Full screen width */
+    top: 0;
+    z-index: 1000;
+    animation: gradientAnimation 5s infinite;
+    background-size: 200% 200%;
+}
+
+/* Keyframes for gradient animation */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Additional styles for movie list containers */
+.movie-list-container {
+    padding-top: 150px; /* Adjust the padding to ensure space below the navbar */
+}
+
+.movie-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+    padding: 20px;
+}
