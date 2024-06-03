@@ -12,27 +12,27 @@ const Bollywood = ({ addToPlaylist }) => {
   const [movies, setMovies] = useState([
     {
       title: 'Kabir Singh',
-      description: 'Description of Kabir Singh',
+      description: 'Movie 1',
       poster: kabir,
     },
     {
-      title: 'Bhram',
-      description: 'Description of Bhram',
+      title: 'Bhramastra',
+      description: 'Movie 2',
       poster: bhram,
     },
     {
       title: 'Gang',
-      description: 'Description of Gang',
+      description: ' Movie 3',
       poster: gang,
     },
     {
       title: 'Padmaavat',
-      description: 'Description of Padmaavat',
+      description: 'Movie 4',
       poster: padma,
     },
     {
       title: 'Patan',
-      description: 'Description of Patanjali',
+      description: 'Movie 5',
       poster: patan,
     },
     // Add more movies as needed
