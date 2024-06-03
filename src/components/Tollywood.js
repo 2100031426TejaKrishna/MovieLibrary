@@ -16,16 +16,16 @@ const Tollywood = ({ addToPlaylist }) => {
   const [searchQuery, setSearchQuery] = useState('');
 
   const movies = [
-    { title: 'LoveStory', description: 'Description of Movie 1', poster: luvstr },
-    { title: 'Pushpa', description: 'Description of Movie 2', poster: pusha },
-    { title: 'Animal', description: 'Description of Movie 3', poster: animal },
-    { title: 'Dasara', description: 'Description of Movie 4', poster: dasara },
-    { title: 'Rangasthalm', description: 'Description of Movie 5', poster: ranga },
-    { title: 'Sahoo', description: 'Description of Movie 6', poster: saho },
-    { title: 'RRR', description: 'Description of Movie 7', poster: rrr },
-    { title: 'Upena', description: 'Description of Movie 8', poster: upena },
-    { title: 'GunturKaram', description: 'Description of Movie 9', poster: guntur },
-    { title: 'VakeelSabb', description: 'Description of Movie 10', poster: vakel }
+    { title: 'LoveStory', description: ' Movie 1', poster: luvstr },
+    { title: 'Pushpa', description: 'Movie 2', poster: pusha },
+    { title: 'Animal', description: ' Movie 3', poster: animal },
+    { title: 'Dasara', description: 'Movie 4', poster: dasara },
+    { title: 'Rangasthalm', description: ' Movie 5', poster: ranga },
+    { title: 'Sahoo', description: ' Movie 6', poster: saho },
+    { title: 'RRR', description: ' Movie 7', poster: rrr },
+    { title: 'Upena', description: ' Movie 8', poster: upena },
+    { title: 'GunturKaram', description: ' Movie 9', poster: guntur },
+    { title: 'VakeelSabb', description: ' Movie 10', poster: vakel }
   ];
 
   const handlePlay = (title) => {
